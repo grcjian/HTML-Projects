@@ -1,0 +1,220 @@
+html {
+  background-image: linear-gradient(#eb9a22, #6b3c06);
+}
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 1.125rem;
+  color: white;
+  background-image: url(image-lion-background.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+.header-logo {
+  width: 45%;
+}
+.header-butons {
+  width: 45%;
+}
+main {
+  min-height: 300px;
+  display: flex;
+  /*justify-content: space-between;*/
+  align-items: center;
+}
+
+h1 {
+  font-family: "Playfair", serif;
+  font-size: 3.125rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-family: "Playfair", serif;
+  font-size: 2rem;
+  padding-top: 20px;
+}
+p {
+  line-height: 2rem;
+  margin-bottom: 0.5rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.contact {
+  min-height: 450px;
+  padding-top: 50px;
+}
+.cards p {
+  font-size: 0.85rem;
+  line-height: 0.85rem;
+  margin-top: 20px;
+}
+
+.herobox1 {
+  flex: 2;
+  padding-right: 5rem;
+}
+.herobox2 {
+  flex: 1;
+}
+.cards {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.card1 {
+  background-image: url(image-background-card1.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 300px;
+  width: 30%;
+}
+
+.card2 {
+  background-image: url(image-background-card2.jpg);
+  background-size: cover;
+  min-height: 300px;
+  width: 30%;
+}
+
+.card3 {
+  background-image: url(image-background-card3.jpg);
+  background-size: cover;
+  min-height: 300px;
+  width: 30%;
+}
+.card1,
+.card2,
+.card3 {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px #000;
+}
+.cards span {
+  margin-top: 20px;
+  font-size: 7rem;
+}
+.mybutton {
+  background-color: white;
+  color: #fc5e55;
+  font-family: "Playfair", serif;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px grey;
+}
+.mybutton:hover {
+  background-color: lightgrey;
+  transition-duration: 1s;
+}
+a.mybutton {
+  display: inline-block;
+}
+
+.navbutton {
+  border: 1px solid white;
+  margin-left: 10px;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  font-family: "Playfair", serif;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+}
+
+.testmonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.tperson {
+  box-sizing: border-box;
+  width: 47%;
+  padding: 50px;
+  border: 1px solid white;
+  margin-top: 3rem;
+}
+.tperson p:last-of-type {
+  font-size: 0.8rem;
+  padding-left: 30px;
+}
+
+.dropdownmenu {
+  display: none;
+  position: absolute;
+  padding-top: 0.5rem;
+  z-index: 1;
+  text-align: center;
+  margin-left: -25px;
+}
+.navbutton:hover .dropdownmenu {
+  display: block;
+}
+.dropdownmenu .navbutton {
+  width: 100px;
+  background-color: white;
+}
+
+.dropdownmenu .navbutton a {
+  color: #eb9a22;
+}
+.dropdownmenu .navbutton:hover {
+  background-color: bisque;
+  transition-duration: 500ms;
+}
+
+.wrapperInput {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 12px 20px;
+  width: 40%;
+}
+
+.label-format {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+.margin-right-a {
+  margin-right: 40px;
+}
+.sendButton:hover {
+  background-color: #6b3c06;
+  transition-duration: 2s;
+}
+.sendButton {
+  border-radius: 5px;
+  width: 13%;
+  height: 50px;
+  font-family: "Playfair", serif;
+  font-size: x-large;
+}
+
+form {
+  margin-bottom: 20px;
+}
